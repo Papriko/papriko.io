@@ -1,0 +1,353 @@
+body {
+    font-family: "Century Gothic", "Lato", sans-serif;
+    cursor:url('./images/cheng.png'),auto;
+}
+a {
+    text-decoration: none;
+}
+
+.top-cloud{
+ position:absolute;
+ right:-177px;
+ bottom:-20px;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left:-222px;
+  top:-20px;
+}
+
+.xiahuaxian{
+  border-bottom: 4px solid #76BA99;
+
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  color:#465651
+}
+hr{
+  border: dotted #CEE5D0 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width:30%
+}
+
+a{
+  color:white;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#ECB390;
+}
+
+.copyright{
+  color:white;
+  font-size: 0.5rem;
+  padding:20px 0;
+}
+
+.bottom-container{
+  background-color:#decbbe;
+  padding:50px 0 20px 0;
+  text-align: center;
+}
+
+.cubediv{
+  height: 100px
+}
+.header {
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 2em;
+    height: 33px;
+    z-index: 2;
+
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* 设置education页面的左右图片 */
+.skill-row{
+  width:50%;
+  margin: auto;
+  text-align: left;
+   /* 图片也一起了 */
+   line-height:inherit;
+}
+
+.huaimage{
+  width:200px;
+  float:left;
+  margin-right:30px;
+  /* 环绕图片 */
+
+}
+.jiangli{
+  color:grey;
+}
+
+.yeimage{
+    width:200px;
+  float:right;
+  margin-left:30px;
+}
+/*
+这个50是相对于复层布局
+而不是图片实际 */
+
+/* 首页面导航设计 */
+
+.topcon ,.wenzi{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 1000px;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.portfolio{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 2000px;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 2em;
+}
+.middle{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 1000px;
+  position:relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 ;
+}
+
+.skill-row h3{
+  color:#ECB390;
+    font-family: "Century Gothic", "Lato", sans-serif;
+}
+.topcon h1,.wenzi h1 {
+    font-size: 5rem;
+    margin: 0;
+    letter-spacing: 1rem;
+}
+.topcon h3,.subtopcon h3
+.middle h3 {
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+}
+.wenzi2{
+  color:#ECB390;
+    font-family: "Century Gothic", "Lato", sans-serif;
+}
+.wenzi1{
+  color:#76BA99;
+    font-family: "Century Gothic", "Lato", sans-serif;
+    font-size: 3rem;
+}
+.wenzi3{
+  color:grey;
+    font-family: "Century Gothic", "Lato", sans-serif;
+}
+
+.daohang {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    z-index: 1;
+    -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.daohang--top-first {
+    position: fixed;
+    top: 75px;
+    -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.daohangr--top-second {
+    position: fixed;
+    top: 0;
+}
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: #000;
+    letter-spacing: 0.1rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+}
+
+/* 悬浮字体颜色 */
+.nav:hover {
+    color: white;
+    background: #ECB390;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+@media (min-width: 800px) {
+    .maindiv h1,
+    .wenzi h1 {
+        font-size: 3rem;
+    }
+    .maindiv h3,
+    .wenzi h3 {
+        font-size: 1rem;
+    }
+    .maindiv {
+        font-size: 1rem;
+    }
+}
+
+
+
+/* 子页面导航设计 */
+.subtopcon
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    background: #eee;
+    text-align: center;
+    padding: 0 2em;
+}
+.subtopcon h1{
+  font-size: 4rem
+}
+.inputmes {
+    display: block;
+    height: 70px;
+    width: 1000px;
+    padding: 0 ;
+    font-size: 10px;
+    line-height: 0px;
+    border-radius: 20px;
+    border: solid;
+    border-width:medium;
+    border-color: #ECB390;
+    background: #ebe6e4;}
+
+    .inputmes2 {
+        height: 300px;
+        width: 1000px;
+        padding: 0 ;
+        font-size: 10px;
+        line-height: -100px;
+        border-radius: 20px;
+        text-align: left;
+        border: solid;
+        border-width:medium;
+        border-color: #ECB390;
+        background: #ebe6e4;
+}
+
+.submit{
+  background: #ECB390;
+  text-align: center;
+  color: white;
+  height: 30px;
+  width: 100px;
+  padding: 0 ;
+  font-size: 10px;
+  border-radius: 20px;
+}
+
+.aboutimg {
+    position:relative;
+    left: 155px;
+    top: 100px;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+p{
+  font-family: "Century Gothic", "Lato", sans-serif;
+  color: #94B49F;
+}
